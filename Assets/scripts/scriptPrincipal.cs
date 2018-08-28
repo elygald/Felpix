@@ -20,9 +20,9 @@ public class scriptPrincipal : MonoBehaviour {
 
 	void CriaCanos()
 	{
-		float randomPos = (3.0f * Random.value) - 1.5f;
+		float randomPos = (3.3f * Random.value) - 1f;
 		GameObject cano = Instantiate(objetoCanos);
-		cano.transform.localScale = new Vector3(1.65f, 1.65f, 1.65f);
+		cano.transform.localScale = new Vector3(1.5f, 1.5f, 1.5f);
 		cano.transform.position = new Vector3(10, randomPos, 0);
 	}
 
